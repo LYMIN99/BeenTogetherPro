@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Been TogetherPro</string>
+    <string name="been_together">Been Together</string>
+    <string name="change_photo_des">Press the face and change it to couple\'s lovely photo!</string>
+    <string name="change_photo_des_notice">NONE of your private data, information will be shared or transmitted to the servers. All of your data is only stored on your device.</string>
+    <string name="please_allow_permision_storage">Please ALLOW the app permission to access the camera and external storage, Thank you.</string>
+    <string name="using_cleaner_app_notice">NOTE : if you are using some kind of Memory Cleaner, Task killer app, please make an exception for BeenTogether Pro app. The date will not be updated if the is terminated.</string>
+</resources>

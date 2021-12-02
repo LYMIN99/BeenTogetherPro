@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.activity.SetupThowActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_horizontal"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="@string/change_photo_des"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                android:layout_marginHorizontal="30dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_overlay="true"
+                    android:src="@drawable/place_holder"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    app:tint="@color/red_500" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_overlay="true"
+                    android:src="@drawable/place_holder"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/change_photo_des_notice"/>
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/please_allow_permision_storage"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:drawableTint="@android:color/white"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="15dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_rounded_primary"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

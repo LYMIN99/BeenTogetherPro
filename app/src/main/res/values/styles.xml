@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="Widget.AppTheme.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
